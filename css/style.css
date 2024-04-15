@@ -298,8 +298,9 @@ section.introduction {
 
 .introduction-img {
   position: absolute;
+  width:50%;
   right: 10%;
-  bottom: 0;
+  bottom: 10%;
 }
 
 /* Programs section */

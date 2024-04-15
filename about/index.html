@@ -25,6 +25,16 @@
 			background-position: center;
 			height: 350px;
 			opacity: 0.5;
+			position: relative; /* Add position relative */
+		}
+		
+		.banner h1 {
+  			  color: white; /* Text color */
+    			  font-size: 24px; /* Font size */
+    			  position: absolute; /* Position absolute */
+    			  top: 50%; /* Position from top */
+                          left: 50%; /* Position from left */
+    			  transform: translate(-50%, -50%); /* Center the text */
 		}
 
 		.main-content {
@@ -65,14 +75,16 @@
 </head>
 
 <body>
-	<div class="banner"></div>
+	<div class="banner">
+    <h1>Su di me </h1>
+</div>
 	<div id="container">
 		<!-- Main -->
 		
 		<div class="main-content">
 			<div class="text-content">
-				<h1 class="fs-primary-heading fw-bold uppercase"> Su di <span class="special-text">me</span> </h1>
-				<p>Amílcar Coronel: Maestro di Karate con oltre 50 anni di esperienza <br />
+				<h1 > Amílcar Coronel: Maestro di Karate con oltre 50 anni di esperienza  </h1>
+				<p>
 					Benvenuti nel mondo del karate attraverso gli occhi di Amílcar Coronel, un'autentica icona della disciplina. <br />
 					Nato nel 1956 in Argentina, Amílcar ha iniziato il suo viaggio nel
 					karate nel lontano 1972, abbracciando con passione e dedizione ogni

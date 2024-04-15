@@ -58,6 +58,9 @@
   --size-800: 4rem;
   --size-900: 5rem;
 }
+@media only screen and (max-width: 600px) {
+    /* CSS rules for small screens (e.g., mobile devices) */
+}
 
 @media (min-width: 50em) {
   :root {
